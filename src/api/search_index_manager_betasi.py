@@ -22,7 +22,7 @@ from azure.search.documents.indexes.models import (
     HnswAlgorithmConfiguration)
 from azure.ai.inference.aio import EmbeddingsClient
 from azure.core.exceptions import ResourceNotFoundError, HttpResponseError
-from util import get_logger, ChatRequest
+from .util import get_logger, ChatRequest
 
 logger = get_logger(
     name="azureaiapp_search",
